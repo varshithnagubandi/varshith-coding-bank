@@ -1,0 +1,37 @@
+.home-container {
+  display: flex;
+}
+.image-container {
+  background-image: url("./Images/homie.jpg");
+  height: 88vh;
+  width: 100vh;
+  background-size: 100% 100%;
+}
+.text-container {
+  max-width: 500px;
+  margin: auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+}
+.home-heading {
+  text-align: center;
+  color: #333366;
+}
+.home-content h2 {
+  color: #333366;
+}
+.home-content p {
+  color: #666666;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

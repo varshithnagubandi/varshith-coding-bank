@@ -1,0 +1,48 @@
+.withdraw-container {
+  display: flex;
+}
+.image-withdraw-container {
+  background-image: url("../Images/Withdraw.jpg");
+  background-size: 100% 100%;
+  width: 130vh;
+  height: 90vh;
+}
+.text-withdraw-container {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.text-withdraw-container input {
+  border: 1px solid rgb(131, 140, 239);
+  padding: 1vw 1vw;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  margin: 5px;
+  margin-left: 40px;
+  color: #ba1919;
+}
+.text-withdraw-container button {
+  border: 1px solid rgb(131, 140, 239);
+  padding: 0.8vw 1vw;
+  border-radius: 10px;
+  margin: 5px;
+  margin-left: 40px;
+}
+.text-withdraw-container img {
+  height: 60px;
+  padding: 20px;
+}
+.text-withdraw-container h2 {
+  color: #333366;
+  padding-left: 40px;
+}
+.text-withdraw-container label {
+  padding-left: 40px;
+}
+.home-heading {
+  text-align: center;
+  color: #333366;
+}
